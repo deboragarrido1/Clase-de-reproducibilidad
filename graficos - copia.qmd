@@ -203,12 +203,12 @@ anim <- p_anim +
 
  #Para generar un GIF (ejecutar en la consola de R dentro del proyecto):
 library(gifski)
-anim_save(
-filename  = "img/animacion_ejemplo.gif",
-animation = anim,
-width     = 800,
-height    = 450
-)
+#anim_save(
+#filename  = "img/animacion_ejemplo.gif",
+#animation = anim,
+#width     = 800,
+#height    = 450
+#)
 ```
 
 ---
